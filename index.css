@@ -30,22 +30,11 @@ html, body {
     border: none;
 }
 
-.cover {
+.cover_bottom {
     position: absolute;
-    background-color: rgb(0, 0, 0); /* Semi-transparent background color */
-}
-
-.cover.top {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 5%;
-}
-
-.cover.bottom {
+    background-color: rgb(0, 0, 0);
     bottom: 0;
     left: 0;
     right: 0;
-    height: 10%; 
+    height: 48px; 
 }
-
